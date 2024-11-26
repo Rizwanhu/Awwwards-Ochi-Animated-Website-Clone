@@ -1,5 +1,8 @@
-###React Project
+# React Project
+
 ---
+![image](https://github.com/user-attachments/assets/af862553-680f-43ca-b300-ed157d2bb822)
+
 This is a fully front-end React application built using modern tools and libraries for creating dynamic and interactive user interfaces. The app is powered by Vite for fast development and optimized production builds, and incorporates libraries like Framer Motion and GSAP for animation, as well as Locomotive Scroll for smooth scrolling effects.
 ---
 ## Features
@@ -11,6 +14,8 @@ TailwindCSS: Utility-first CSS framework for rapid UI development.
 Linting & Code Quality: ESLint integration for consistent code quality and style.
 ```
 ---
+![image](https://github.com/user-attachments/assets/fd5c080c-bce2-4005-b274-198419ed9771)
+
 ## Technologies
 ```
 React: For building the UI components.
@@ -21,6 +26,10 @@ GSAP: For high-performance animations.
 Locomotive Scroll: For smooth scrolling effects.
 ESLint: For ensuring code quality with linting.
 ```
+
+
+![image](https://github.com/user-attachments/assets/85c24858-c186-448b-8661-94392ee6d94f)
+
 ---
 # Setup Instructions
 Clone the Repository
@@ -32,6 +41,9 @@ git clone https://github.com/your-username/react-project.git
 ```
 ---
 # Install Dependencies
+
+![image](https://github.com/user-attachments/assets/4e21c529-6459-4363-acef-26567226453f)
+
 
 Navigate to the project folder and install all the required dependencies using npm or yarn:
 
@@ -81,6 +93,9 @@ npm run lint
 This will check your code for any style violations or errors.
 ---
 
+![image](https://github.com/user-attachments/assets/de5588ec-d8f9-43af-b45f-b5aff4025417)
+
+
 # Project Structure
 ```
 react-project/
@@ -101,6 +116,10 @@ react-project/
 ├── package.json          # Project metadata and dependencies
 └── README.md             # Project documentation
 ```
+
+![image](https://github.com/user-attachments/assets/d007e448-b03e-4dcf-af96-48c6d9f901ca)
+
+
 ---
 ## Dependencies
 framer-motion: ^11.2.12 - An animation library for React to add advanced animations.
