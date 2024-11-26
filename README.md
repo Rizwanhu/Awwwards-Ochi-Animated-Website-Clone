@@ -1,16 +1,19 @@
-### React Project
+###React Project
+
 ---
 This is a fully front-end React application built using modern tools and libraries for creating dynamic and interactive user interfaces. The app is powered by Vite for fast development and optimized production builds, and incorporates libraries like Framer Motion and GSAP for animation, as well as Locomotive Scroll for smooth scrolling effects.
 ---
 ## Features
-
+```
 Modern React App: Built using React 18, providing a fast and responsive user interface.
 Animations: Utilizes Framer Motion and GSAP for smooth and interactive animations.
 Smooth Scrolling: Locomotive Scroll library ensures smooth scroll interactions.
 TailwindCSS: Utility-first CSS framework for rapid UI development.
 Linting & Code Quality: ESLint integration for consistent code quality and style.
+```
 ---
 ## Technologies
+```
 React: For building the UI components.
 Vite: For fast development and build tool.
 TailwindCSS: For styling the application with a utility-first approach.
@@ -18,6 +21,7 @@ Framer Motion: For advanced animations.
 GSAP: For high-performance animations.
 Locomotive Scroll: For smooth scrolling effects.
 ESLint: For ensuring code quality with linting.
+```
 ---
 # Setup Instructions
 Clone the Repository
