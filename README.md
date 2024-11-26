@@ -1,8 +1,8 @@
-## React Project
+### React Project
 ---
 This is a fully front-end React application built using modern tools and libraries for creating dynamic and interactive user interfaces. The app is powered by Vite for fast development and optimized production builds, and incorporates libraries like Framer Motion and GSAP for animation, as well as Locomotive Scroll for smooth scrolling effects.
 ---
-# Features
+## Features
 
 Modern React App: Built using React 18, providing a fast and responsive user interface.
 Animations: Utilizes Framer Motion and GSAP for smooth and interactive animations.
@@ -10,7 +10,7 @@ Smooth Scrolling: Locomotive Scroll library ensures smooth scroll interactions.
 TailwindCSS: Utility-first CSS framework for rapid UI development.
 Linting & Code Quality: ESLint integration for consistent code quality and style.
 ---
-# Technologies
+## Technologies
 React: For building the UI components.
 Vite: For fast development and build tool.
 TailwindCSS: For styling the application with a utility-first approach.
@@ -79,8 +79,7 @@ This will check your code for any style violations or errors.
 ---
 
 # Project Structure
-graphql
-Copy code
+```
 react-project/
 │
 ├── public/               # Static files
@@ -98,9 +97,9 @@ react-project/
 ├── vite.config.js        # Vite configuration
 ├── package.json          # Project metadata and dependencies
 └── README.md             # Project documentation
-
+```
 ---
-# Dependencies
+## Dependencies
 framer-motion: ^11.2.12 - An animation library for React to add advanced animations.
 gsap: ^3.12.5 - A high-performance animation library for JavaScript.
 locomotive-scroll: ^5.0.0-beta.13 - A smooth scrolling library.
@@ -109,13 +108,13 @@ react-dom: ^18.3.1 - Provides DOM-specific methods for React.
 react-headroom: ^3.2.1 - A library for hiding header when scrolling.
 react-icons: ^5.2.1 - Icon library for React.
 ---
-# Development Dependencies
+## Development Dependencies
 @vitejs/plugin-react: ^4.3.1 - Vite plugin for React support.
 eslint: ^8.57.0 - Linting tool for JavaScript and React.
 tailwindcss: ^3.4.4 - Utility-first CSS framework.
 vite: ^5.3.1 - Fast build tool for front-end projects.
 ---
-# Contributing
+## Contributing
 Fork this repository to your own GitHub account.
 Clone your forked repository to your local machine.
 Create a new branch to work on your changes.
