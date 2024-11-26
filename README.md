@@ -1,5 +1,4 @@
 ###React Project
-
 ---
 This is a fully front-end React application built using modern tools and libraries for creating dynamic and interactive user interfaces. The app is powered by Vite for fast development and optimized production builds, and incorporates libraries like Framer Motion and GSAP for animation, as well as Locomotive Scroll for smooth scrolling effects.
 ---
