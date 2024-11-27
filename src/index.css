@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font importing from folders */
+@font-face {
+    font-family: 'founder'; /* Replace 'MyFont' with your desired font name */
+    src: url('./fonts/FoundersGrotesk-Semibold.ttf') format('truetype'); /* Replace 'your-font-file.ttf' with your actual file name */
+  }
+@font-face {
+    font-family: 'montreal'; /* Replace 'MyFont' with your desired font name */
+    src: url('./fonts/NeueMontreal-Regular.ttf') format('truetype'); /* Replace 'your-font-file.ttf' with your actual file name */
+  }
+  .founder {
+    font-family: 'founder', sans-serif; /* Include a fallback font for browser compatibility */
+    font-size: 16px;
+  }
+  .montreal {
+    font-family: 'montreal', sans-serif; /* Include a fallback font for browser compatibility */
+    font-size: 16px;
+  }
+  
+
+/* anchor-tag animations */
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  a:after {
+    display:block;
+    content: '';
+    width: inherit;
+    border-bottom: solid 3px white;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  
+  a:hover:after { transform: scaleX(1); }
+
+
+  .a-black{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  .a-black:after {
+    display:block;
+    content: '';
+    width: inherit;
+    border-bottom: solid 3px black;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    text-decoration-line: none;
+  }
+
+  .a-black:hover:after { transform: scaleX(1);  }
+
+
+
+
+  .scale-in-hor-left {
+	-webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-in-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+  
+
+
+/* colors to use in web-page */
+  .bg-green {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 77, 67, var(--tw-bg-opacity));
+}
+
+
+.light-green{
+  background-color: #CDEA68;
+}
+
+.ochi{
+    white-space: nowrap;
+    overflow: hidden; /* Optional, to prevent ellipsis (...) if text overflows the container */
+
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 2px; /* Add spacing below the text */
+  text-underline-width: thin; /* Make the line thinner */
+  color: inherit; /* Inherit text color for a more natural look */
+}
+
+.underline:hover{
+  cursor: pointer;
+}
+.underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjust spacing below the text */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust line thickness */
+  background-color: #000; /* Set underline color (adjust as needed) */
+}
+
+
+
+
+/* removing scroll bar on the web-page */
+::-webkit-scrollbar{
+  display: none;
+}
+*{
+  scrollbar-width: none;
+}
+
+
+
+/* image animation on hover zoom etc */
+.pic-animate:hover{
+  transform: scale(1.2);
+}
+
+/* blur nav bar back */
+.blurry{
+  background-color: #ffffff10;
+  /* background-color: #18181B; */
+  backdrop-filter: blur(5px);
+}
